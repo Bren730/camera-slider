@@ -64,7 +64,8 @@ gulp.task('js', function() {
 gulp.task('vendor', function() {
 	
 	var files = [
-		'./node_modules/jquery/dist/jquery.min.js'
+		'./node_modules/jquery/dist/jquery.min.js',
+		'./node_modules/particle-api-js/dist/particle.min.js'
 	]
 	
 	var stream = gulp.src(files)
